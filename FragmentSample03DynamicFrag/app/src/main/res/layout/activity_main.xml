@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/flDynamicFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="80" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMacOs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="macOS"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnWindows"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Windows"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnLinux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Linux"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
